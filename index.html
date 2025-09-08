@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tollywood Movie Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #343a40;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .movie-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .movie-card {
+            background-color: white;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .movie-card img {
+            width: 100%;
+            height: auto;
+        }
+        .movie-details {
+            padding: 15px;
+        }
+        .movie-details h3 {
+            margin-top: 0;
+        }
+        .book-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 0 0 10px 10px;
+        }
+        .book-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tollywood Movie Ticket Booking</h1>
+    </header>
+    <div class="movie-container">
+        <div class="movie-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Game_Changer_film_p            <div class="movie-details">
+                <h3>Game Changer</h3>
+                <p>🎟️ Ticket Price: ₹250</p>
+                <p>🕒 Show Timings: 10:00 AM, 2:00 PM, 6:00 PM</p>
+            </div>
+            <button class="book-button" onclick="bookTicket('Game Changer')">Book Now</button>
+        </div>
+        <div class="movie-card">
+            <img src="https://thetelugufilmnagar.com/wp-content/uploads/2023/12/Hari-Hara-Veera-Mallu.jpg" alt="Hari Haraovie-details">
+                <h3>Hari Hara Veera Mallu</h3>
+                <p>🎟️ Ticket Price: ₹300</p>
+                <p>🕒 Show Timings: 11:00 AM, 3:00 PM, 7:00 PM</p>
+            </div>
+            <button class="book-button" onclick="bookTicket('Hari Hara Veera Mallu')">Book Now</button>
+        </div>
+        <div class="movie-card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/8e/Daaku_Maharaaj_poster.jpg" altiv class="movie-details">
+                <h3>Daaku Maharaaj</h3>
+                <p>🎟️ Ticket Price: ₹280</p>
+                <p>🕒 Show Timings: 9:30 AM, 1:30 PM, 5:30 PM</p>
+            </div>
+            <button class="book-button" onclick="bookTicket('Daaku Maharaaj')">Book Now</button>
+        </div>
+        <div class="movie-card">
+            <img src="https://thetelugufilmnagar.com/wp-content/uploads/2025/03/Dilruba-Telugu-Movie-Poster.jpg   <div class="movie-details">
+                <h3>Dilruba</h3>
+                <p>🎟️ Ticket Price: ₹220</p>
+                <p>🕒 Show Timings: 10:30 AM, 2:30 PM, 6:30 PM</p>
+            </div>
+            <button class="book-button" onclick="bookTicket('Dilruba')">Book Now</button>
+        </div>
+        <div class="movie-card">
+            <img src="https://thetelugufilmnagar.com/wp-content/uploads/2025/03/Robinhood-Telugu-Movie-Poster.jpg" altiv class="movie-details">
+                <h3>Robinhood</h3>
+                <p>🎟️ Ticket Price: ₹240</p>
+                <p>🕒 Show Timings: 12:00 PM, 4:00 PM, 8:00 PM</p>
+            </div>
+            <button class="book-button" onclick="bookTicket('Robinhood')">Book Now</button>
+        </div>
+    </div>
+    <script>
+        function bookTicket(movieName) {
+            alert("🎉 Your ticket for '" + movieName + "' has been booked successfully!");
+        }
+    </script>
+</body>
+</html>
