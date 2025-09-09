@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:stable-alpine
 MAINTAINER name akki
 LABEL this is my first jenkins-docker assignment
 EXPOSE 80
